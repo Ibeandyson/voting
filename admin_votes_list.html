@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:whitesmoke">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vote list</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css" />
+</head>
+
+<body >
+    <!-- =====offcanvas start here===== -->
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar sidenav">
+            <div class="uk-offcanvas-close" style="color: black; font-size:20%"> <i class="mdi  mdi-close"
+                    style="color:black; font-size: 30px"></i></div>
+            <ul class="uk-nav uk-nav-default" style="padding-top:50px">
+               
+                <li class="uk-parent uk-text-center">
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <div class="uk-padding-small">
+                            <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                    style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; 
+                                                color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%">
+                                    <b>HOME</b></button></a>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <div class="uk-padding-small">
+                                <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                        style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; 
+                                                color:white;max-height: 50px !important; min-height: 50px !important; height:50px;  width: 100%"">
+                                        <b>ABOUT</b></button></a>
+                            </div>
+                            <div class="uk-animation-toggle" tabindex="0">
+                               
+                                <div class="uk-animation-toggle" tabindex="0">
+                                        <div class="uk-padding-small">
+                                            <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                                    style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; 
+                                                                color:white;max-height: 50px !important; min-height: 50px !important; height:50px;  width: 100%"">
+                                                    <b>LOG IN</b></button></a>
+                                        </div>
+                                        <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-padding-small">
+                                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                            style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; 
+                                                        color:white;max-height: 50px !important; min-height: 50px !important; height:50px;  width: 100%"">
+                                            <b>SIGN UP</b></button></a>
+                                </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- =====offcanvas ended here===== -->
+    <!-- =====navbar start here===== -->
+    <nav class="uk-navbar-container navigation" uk-navbar>
+
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav uk-visible@s" tabindex="0">
+                <li class="uk-active uk-animation-toggle"><a href="index.html"
+                        style="max-height: 50px !important; min-height: 50px !important; height:50px; color:black"><img
+                            src="images/elite2 - Copy.png" style="height: 35px"></a></li>
+            </ul>
+        </div>
+
+        <div class="uk-navbar-right uk-visible@s">
+                <ul class="uk-navbar-nav uk-visible@s" tabindex="0">
+                        <li class=" uk-animation-toggle ">
+                            <a href="index.html" class=" uk-animation-fade"
+                                style="max-height: 50px !important; min-height: 50px !important; height:50px; color:white"><b>Home</b></a>
+                        </li>
+                        <li class=" uk-animation-toggle">
+                            <a href="about.html" class=" uk-animation-fade"
+                                style="max-height: 50px !important; min-height: 50px !important; height:50px; color:white"><b>About</b></a>
+                        </li>
+                        
+                        
+                    </ul>
+                    
+            <ul class="uk-navbar-nav">
+
+                <li>
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <div class="uk-padding-small ">
+                            <a href="#"> <button class="uk-animation-shake uk-button uk-button-large"
+                                    style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; box-shadow: 0px 0px 30px 0px black; 
+                                    color:white;max-height: 50px !important; min-height: 50px !important; height:50px;">
+                                    <b>SIGN UP</b></button></a>
+                        </div>
+
+                </li>
+                <li>
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <div class="uk-padding-small">
+                            <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                    style="background-color:#EF7D11; border-radius: 30px; opacity: 0.8; box-shadow: 0px 0px 30px 0px black;
+                                        color:white;max-height: 50px !important; min-height: 50px !important; height:50px;">
+                                    <b>LOG IN</b></button></a>
+                        </div>
+
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right uk-hidden@s">
+            <ul class="uk-navbar-nav">
+
+                <li>
+                    <div class="uk-navbar-toggle " uk-toggle="target: #offcanvas-push">
+                        <i class="mdi  mdi-menu-open" style="color:white; font-size: 30px;"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--=======nav ends here=======-->
+
+
+<div class="uk-container">
+    <div class="uk-card uk-card-default">
+        	<!--=======================-->
+		<div class="uk-container ">
+                <table class="uk-table uk-table-responsive uk-table-divider">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>NAME</th>
+                            <th>EMAIL</th>
+                            <th>CONTESTANT</th>
+                            <th>AMOUNT</th>
+                            <th>CONTEST</th>
+                            <th>DATE</th>
+                    
+                            <th>ACTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>ibe andyson andrew</td>
+                            <td>ibeandyson@gmail.com</td>
+                            <td>1</td>
+                            <td>20K</td>
+                            <td>face of imo</td>
+                            <td>11-02-2020</td>
+                            <td>
+                                <div>
+                                    <button class="uk-button uk-button-small" uk-tooltip="View" style="background-color:black" >
+                                     <i class="mdi  mdi-eye" style="color:white; font-size: 15px;"></i>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!--=======================-->
+            <div class="uk-card-footer">
+                    <ul class="uk-pagination uk-flex-center" uk-margin>
+                            <li><a href="#"><span uk-pagination-previous></span></a></li>
+                            <li><a href="#">1</a></li>
+                            <li class="uk-disabled"><span>...</span></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">6</a></li>
+                            <li class="uk-active"><span>7</span></li>
+                            <li><a href="#">8</a></li>
+                            <li><a href="#"><span uk-pagination-next></span></a></li>
+                        </ul>
+            </div>
+           
+    </div>
+</div>
+
+  
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>

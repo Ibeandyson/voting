@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en" style="background-color:whitesmoke">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contestants profile</title>
+    <link rel="stylesheet" href="css/uikit.min.css" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.0.45/css/materialdesignicons.min.css" />
+</head>
+
+<body >
+    <!-- =====offcanvas start here===== -->
+    <div id="offcanvas-push" uk-offcanvas="mode: push; overlay: true">
+        <div class="uk-offcanvas-bar sidenav">
+            <div class="uk-offcanvas-close" style="color: black; font-size:20%"> <i class="mdi  mdi-close"
+                    style="color:black; font-size: 30px"></i></div>
+            <ul class="uk-nav uk-nav-default" style="padding-top:50px">
+               
+                <li class="uk-parent uk-text-center">
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <div class="uk-padding-small">
+                            <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                    style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; 
+                                                color:white;max-height: 50px !important; min-height: 50px !important; height:50px; width: 100%">
+                                    <b>HOME</b></button></a>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <div class="uk-padding-small">
+                                <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                        style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; 
+                                                color:white;max-height: 50px !important; min-height: 50px !important; height:50px;  width: 100%"">
+                                        <b>ABOUT</b></button></a>
+                            </div>
+                            <div class="uk-animation-toggle" tabindex="0">
+                               
+                                <div class="uk-animation-toggle" tabindex="0">
+                                        <div class="uk-padding-small">
+                                            <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                                    style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; 
+                                                                color:white;max-height: 50px !important; min-height: 50px !important; height:50px;  width: 100%"">
+                                                    <b>LOG IN</b></button></a>
+                                        </div>
+                                        <div class="uk-animation-toggle" tabindex="0">
+                                <div class="uk-padding-small">
+                                    <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                            style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; 
+                                                        color:white;max-height: 50px !important; min-height: 50px !important; height:50px;  width: 100%"">
+                                            <b>SIGN UP</b></button></a>
+                                </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- =====offcanvas ended here===== -->
+    <!-- =====navbar start here===== -->
+    <nav class="uk-navbar-container navigation" uk-navbar>
+
+        <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav uk-visible@s" tabindex="0">
+                <li class="uk-active uk-animation-toggle"><a href="index.html"
+                        style="max-height: 50px !important; min-height: 50px !important; height:50px; color:black"><img
+                            src="images/elite2 - Copy.png" style="height: 35px"></a></li>
+            </ul>
+        </div>
+
+        <div class="uk-navbar-right uk-visible@s">
+                <ul class="uk-navbar-nav uk-visible@s" tabindex="0">
+                        <li class=" uk-animation-toggle ">
+                            <a href="index.html" class=" uk-animation-fade"
+                                style="max-height: 50px !important; min-height: 50px !important; height:50px; color:white"><b>Home</b></a>
+                        </li>
+                        <li class=" uk-animation-toggle">
+                            <a href="about.html" class=" uk-animation-fade"
+                                style="max-height: 50px !important; min-height: 50px !important; height:50px; color:white"><b>About</b></a>
+                        </li>
+                        
+                        
+                    </ul>
+                    
+            <ul class="uk-navbar-nav">
+
+                <li>
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <div class="uk-padding-small ">
+                            <a href="#"> <button class="uk-animation-shake uk-button uk-button-large"
+                                    style="background-color:#3D9FB9; border-radius: 30px; opacity: 0.8; box-shadow: 0px 0px 30px 0px black; 
+                                    color:white;max-height: 50px !important; min-height: 50px !important; height:50px;">
+                                    <b>SIGN UP</b></button></a>
+                        </div>
+
+                </li>
+                <li>
+                    <div class="uk-animation-toggle" tabindex="0">
+                        <div class="uk-padding-small">
+                            <a href="#"> <button class=" uk-animation-shake uk-button uk-button-large"
+                                    style="background-color:#EF7D11; border-radius: 30px; opacity: 0.8; box-shadow: 0px 0px 30px 0px black;
+                                        color:white;max-height: 50px !important; min-height: 50px !important; height:50px;">
+                                    <b>LOG IN</b></button></a>
+                        </div>
+
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right uk-hidden@s">
+            <ul class="uk-navbar-nav">
+
+                <li>
+                    <div class="uk-navbar-toggle " uk-toggle="target: #offcanvas-push">
+                        <i class="mdi  mdi-menu-open" style="color:white; font-size: 30px;"></i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--=======nav ends here=======-->
+
+
+<div class="uk-container" style="padding-top: 5% ;padding-bottom:10px ;">
+    <div class="uk-card uk-card-default my-card uk-padding-small ">
+            <div class="uk-h3" style="color: white">Contestant Profile</div>
+         <div uk-grid>
+            <div class="uk-width-1-1 uk-width-1-2@m ">
+                 <img class="uk-border-circle" width="300" height="300" style=" border: 4px 4px 4px black" src="images/pic.jpg">  
+           </div>
+           
+           <div class="uk-width-1-1 uk-width-1-2@m ">
+                <h2 class="my-card-name uk-padding-small"><b style="color:#EF7D11">Ibe Andyson Andrew</b></h2> 
+                <ul class="contestant-details">
+                        <li><b>SEX: </b>male</li>
+                        <li><b>AGE: </b>15</li>
+                        <li><b>SCHOOL: </b> unioort</li>
+                        <li><b>FACULTY: </b>applied sceince</li>
+                        <li><b>EMAIL: </b>ibeandyson123@gmail.com</li>
+                        <li><b>PHONE: </b>08033275449</li>
+                        <li><b>BIO: </b>im ibe Andyson Andrew, im a software dev </li>
+                    </ul>
+                   </div> 
+               </div>
+          </div>
+                    
+        </div>
+
+        <div class="uk-container" style="padding-top: 5% ;padding-bottom:10px ;">
+                <div class="uk-card uk-card-default my-card uk-padding-small ">
+                            <div class="uk-h3" style="color: white">Photos</div>
+                            <div class="uk-child-width-1-5@m k-child-width-1-1@m uk-grid-small  " uk-grid uk-lightbox="animation: scale">
+                                <div>
+                                    <a class="uk-inline ph" href="images/pic.jpg" data-caption="Caption 1">
+                                        <img src="images/pic.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a class="uk-inline" href="images/pic.jpg" data-caption="Caption 2">
+                                        <img src="images/pic.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div>
+                                        <a class="uk-inline" href="images/pic.jpg" data-caption="Caption 2">
+                                            <img src="images/pic.jpg" alt="">
+                                        </a>
+                                    </div>
+                                    <div>
+                                            <a class="uk-inline" href="images/pic.jpg" data-caption="Caption 2">
+                                                <img src="images/pic.jpg" alt="">
+                                            </a>
+                                        </div>
+                                <div>
+                                    <a class="uk-inline" href="images/pic.jpg" data-caption="Caption 3">
+                                        <img src="images/pic.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                          
+                      </div>
+                                
+                    </div>
+                    <div class="uk-container" style="padding-top: 5% ;padding-bottom:10px ;">
+                            <div class="uk-card uk-card-default my-card uk-padding-small ">   
+                                        <div class="uk-h3" style="color: white">Vote For Me</div>
+                                        
+                                        <form class="uk-grid-small content" uk-grid>
+                                                <div class="uk-width-1-2@s">
+                                                    <label class="uk-form-label form-lable" for="form-stacked-text ">First Name</label>
+                                                    <input class="uk-input" type="text" id="firstname" name="firstname">
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <label class="uk-form-label form-lable" for="form-stacked-text ">Last Name</label>
+                                                    <input class="uk-input" type="text" id="firstname" name="lastname">
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <label class="uk-form-label form-lable" for="form-stacked-text ">Email</label>
+                                                    <input class="uk-input" type="email">
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                    <label class="uk-form-label form-lable" for="form-stacked-text ">Vote</label>
+                                                    <input class="uk-input" type="number"> 
+                                                </div>
+                                                <div class="uk-width-1-2@s">
+                                                        <i class="mdi  mdi-currency-ngn" style="color:white; font-size: 30px;"></i> <label style="color:white; font-size: 30px;" >1k</label>
+                                                    </div>
+                                                    <div class="uk-animation-toggle" tabindex="0">
+                                                            <a href="#"> <button class=" uk-animation-shake uk-button uk-button-small"
+                                                                style="background-color:#3D9FB9;  opacity: 0.8; 
+                                                               color:white;max-height: 50px !important; min-height: 50px !important; height:50px;  width: 100%">
+                                                               <b>vote now</b></button></a>
+                                                           </div>
+                                                
+                                            </form>      
+                        </div>
+                                            
+                     </div>
+    </div>    
+</div>
+
+
+  
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+
+</html>
